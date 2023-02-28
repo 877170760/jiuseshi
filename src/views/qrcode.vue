@@ -105,6 +105,9 @@ export default {
     height: 100vh;
     margin: 0 auto;
     background: #000;
+    div {
+      height: 100%;
+    }
   }
   .code-button {
     width: 100%;
