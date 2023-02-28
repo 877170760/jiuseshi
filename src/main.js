@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-
+import VConsole from 'vconsole';
+let vConsole = new VConsole();
 Vue.config.productionTip = false
-let vConsole = null;
-vConsole = new VConsole()
+
 new Vue({
   router,
   render: h => h(App)
